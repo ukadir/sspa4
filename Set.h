@@ -126,6 +126,8 @@ class MultiwayTrieSet : public Set {
                  * Node constructor, which initializes everything
                  */
                 Node() : isWord(false) {}
+
+                void rDelete();
         };
 
         /**
